@@ -1,11 +1,13 @@
-# Day 
+# Day
 # https://adventofcode.com/2024/day/
 
-from utils.input import read_input_file_lines 
+from utils.input import read_input_file_lines
+
 
 def parse_inputs():
     lines = read_input_file_lines("day01_input.txt")
     return lines
+
 
 def part1():
     pass

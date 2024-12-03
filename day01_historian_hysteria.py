@@ -3,7 +3,8 @@
 
 from typing import List, Tuple
 from collections import Counter
-from utils.input import read_input_file_lines 
+from utils.input import read_input_file_lines
+
 
 def parse_inputs() -> Tuple[List[int], List[int]]:
     lines = read_input_file_lines("day01_input.txt")
@@ -16,6 +17,7 @@ def parse_inputs() -> Tuple[List[int], List[int]]:
         list2.append(b)
     return list1, list2
 
+
 def part1():
     list1, list2 = parse_inputs()
     list1.sort()
@@ -23,8 +25,8 @@ def part1():
 
     dist = 0
     for n1, n2 in zip(list1, list2):
-        dist += abs(n2-n1)
-    
+        dist += abs(n2 - n1)
+
     return dist
 
 
