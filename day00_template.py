@@ -5,7 +5,7 @@ from utils.input import read_input_file_lines
 
 
 def parse_inputs():
-    lines = read_input_file_lines("day01_input.txt")
+    lines = read_input_file_lines("day00_input.txt")
     return lines
 
 

@@ -2,6 +2,7 @@
 # https://adventofcode.com/2024/day/2
 
 from typing import List
+
 from utils.input import read_input_file_lines
 
 

@@ -1,8 +1,9 @@
 # Day 1: Historian Hysteria
 # https://adventofcode.com/2024/day/1
 
-from typing import List, Tuple
 from collections import Counter
+from typing import List, Tuple
+
 from utils.input import read_input_file_lines
 
 
