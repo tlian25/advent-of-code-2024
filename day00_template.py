@@ -1,6 +1,8 @@
 # Day
 # https://adventofcode.com/2024/day/
 
+from typing import *
+from collections import *
 from utils.input import read_input_file_lines
 
 
